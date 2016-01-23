@@ -11,7 +11,7 @@ public partial class UserDefinedFunctions
     /// <param name="pattern">Regular expression pattern to search for in the input string.</param>
     /// <returns>true if a match is found; otherwise false.</returns>
     [SqlFunction]
-    public static SqlBoolean RegexIsMatch(SqlString input, SqlString pattern)
+    public static SqlBoolean fnRegexIsMatch(SqlString input, SqlString pattern)
     {
         string regexInput = input.Value;
         string regexPattern = pattern.Value;

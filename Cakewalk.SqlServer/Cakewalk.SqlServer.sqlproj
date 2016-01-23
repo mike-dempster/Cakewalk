@@ -69,8 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SqlClr\RegexIsMatch.cs" />
-    <Compile Include="SqlClr\RegexCompare.cs" />
-    <Compile Include="SqlClr\RegexMatch.cs" />
+    <Compile Include="SqlClr\fnRegexIsMatch.cs" />
+    <Compile Include="SqlClr\fnRegexCompare.cs" />
+    <Compile Include="SqlClr\fnRegexMatch.cs" />
+    <Compile Include="SqlClr\fnAnd.cs" />
+    <Compile Include="SqlClr\fnBigAnd.cs" />
+    <Compile Include="SqlClr\fnOr.cs" />
+    <Compile Include="SqlClr\fnBigOr.cs" />
   </ItemGroup>
 </Project>

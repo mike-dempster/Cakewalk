@@ -12,7 +12,7 @@ public partial class UserDefinedFunctions
     /// <param name="pattern">Regular expression to use for comparison of the two strings.</param>
     /// <returns>true if the matching sequences of the two input strings match; otherwise false.</returns>
     [SqlFunction]
-    public static SqlBoolean RegexCompare(SqlString leftInput, SqlString rightInput, SqlString pattern)
+    public static SqlBoolean fnRegexCompare(SqlString leftInput, SqlString rightInput, SqlString pattern)
     {
         string leftInputString = leftInput.Value;
         string rightInputString = rightInput.Value;
